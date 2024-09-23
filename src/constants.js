@@ -5,7 +5,7 @@ export const NAV_ITEM_LINKS = [
     {
         key:'1',
         label:"About Us",
-        pathUrl : '/about-us',
+        pathUrl : '/about',
         path:(<Link href='/about-us'>About Us</Link>),
         subItem:false,
 
@@ -321,5 +321,62 @@ export const RCM_XEN_MED = [
 
 
 
+
+]
+
+export const WHOM_WE_SERV = [
+    {
+        key:'1',
+        label:'Hospital Billing',
+        iconUrl:'/about/services/serve-1.png'
+    },
+    {
+        key:'2',
+        label:'Cardiology Billing',
+        iconUrl:'/about/services/serve-2.png'
+    },
+    {
+        key:'3',
+        label:'Laboratory Billing',
+        iconUrl:'/about/services/serve-3.png'
+    },
+    {
+        key:'4',
+        label:'Nephorology Billing',
+        iconUrl:'/about/services/serve-4.png'
+    },
+    {
+        key:'5',
+        label:'Radiologo Billing',
+        iconUrl:'/about/services/serve-5.png'
+    },
+    {
+        key:'6',
+        label:'Surgery Billing',
+        iconUrl:'/about/services/serve-6.png'
+    },
+
+    {
+        key:'7',
+        label:'Chiroprating Billing',
+        iconUrl:'/about/services/serve-7.png'
+    },
+    {
+        key:'8',
+        label:'Hematology Billing',
+        iconUrl:'/about/services/serve-8.png'
+    },
+
+    {
+        key:'9',
+        label:'Rheumatology Billing',
+        iconUrl:'/about/services/serve-9.png'
+    },
+
+    {
+        key:'10',
+        label:'Dermatology Billing',
+        iconUrl:'/about/services/serve-10.png'
+    },
 
 ]

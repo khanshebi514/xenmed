@@ -12,15 +12,13 @@ import Footer from "./components/footer";
 export default function Home() {
   return (
     <>
-    <Navbar/>
     <Hero/>
     <SidebarMenu/>
     <Whyus/>
-    <OurServices/>
+    <OurServices counter={true}/>
     <WhyXenMed/>
     <RcmXenMed/>
     <TrustedPartnerHeading/>
-    <Footer/>
     </>
    
   );
