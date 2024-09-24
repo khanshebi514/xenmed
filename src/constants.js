@@ -178,7 +178,14 @@ export const NAV_ITEM_LINKS = [
         pathUrl : '/testmonial',
         path:(<Link href='/testmonial'>Testmonials</Link>),
         subItem:false,
-    }
+    },
+    {
+        key:'6',
+        label:"Contact us",
+        pathUrl : '/contact',
+        path:(<Link href='/contact'>Testmonials</Link>),
+        subItem:false,
+    },
 
 
 
